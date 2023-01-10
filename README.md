@@ -9,13 +9,13 @@
 
 В корне проекта в файле conftest.py находится фикстура с функцией открытия и закрытия браузера. Для запуска тестов необходимо поменять путь до webdriver на свой.
 
-В папке pages находятся файлы auth_page.py, base.py, elements.py, в которых находятся методы для тестируемых страниц.
+В корне проекта находятся файлы auth_page.py, base.py, elements.py, в которых находятся методы для тестируемых страниц.
 
-В папке pages в файле registration_page.py находятся локаторы.
+В файле registration_page.py находятся локаторы.
 
 В корне проекта в файле requirements.txt описаны используемые библиотеки.
 
-Во файле tests находятся закомментированные команды для запуска тестов из командной строки (# python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>/<chromedriver.exe>  autotests.py).
+Во файле autotests находятся закомментированные команды для запуска тестов из командной строки (# python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>/<chromedriver.exe>  autotests.py).
 
 Протестированные требования, с пометками и рекомендациями находятся в файле: https://docs.google.com/document/d/1OEBSB7LnA0OcaxdyNWatUoVYY-v90b_i/edit?usp=sharing&ouid=117890544357615800937&rtpof=true&sd=true
 
